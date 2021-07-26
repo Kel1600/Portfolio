@@ -1,54 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio: About</title>
-
-    <style>
-        body {background-color: lightblue;}
-
-        h1 {color:blue;}
-
-        p {color: red;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </style>
-
-
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    
-<h1>HI THERE!</h1>
 
+<body class="body">
+  <header class="header">
+    <h1 class="h1">Student Bio</h1>
+  </header>
 
-<p>
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem esse animi harum velit, nobis assumenda illo quam facere, repreh
-enderit quisquam quia deleniti ratione blanditiis ducimus numquam illum libero ea beatae!
+  <div class="container">
 
-</p>
+    <section id="main-bio">
 
-<br>
+      <h2>Markel Manson</h2>
 
-<p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae error, doloremque fugit consequuntur tempore nam facilis quam nobis, autem ullam aperiam ab
-     accusantium quod excepturi corrupti vero inventore animi perferendis.
-</p>
+      <img id="bio-image" src="smiley.png" alt="Smiley-Img">
 
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
 
+    <section id="contact-info">
+      <h2 class="h2">Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">markelmanson370@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">Kel1600</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
 
 </body>
+
 </html>
